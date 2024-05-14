@@ -19,6 +19,10 @@ We obtained the Boston weather dataset spanning from 2013 to 2023 from Kaggle. T
 
 ## Data Preprocessing and Handling Missing Values
 
+<div align="center">
+  <img src="Handled Missing Values.png" alt="Handled Missing Values">
+</div>
+
 Our initial exploration revealed several important insights into the Boston weather dataset. Firstly, an examination of the first 10 rows provided a glimpse into its structure and contents. Secondly, detailed assessments using `df.info()` and `df.describe()` unveiled crucial information regarding data types, missing values, and statistical summaries. One notable observation was the presence of missing values in the 'tavg' column, prompting the decision to impute them by aligning with corresponding values from other columns. This meticulous approach ensured uniformity throughout the dataset. Moreover, to address missing values in the 'wdir' column, linear interpolation was employed, enhancing dataset completeness. Additionally, transforming the 'time' column into datetime format facilitated temporal analysis, with supplementary columns for year and month extraction further enhancing granularity. Lastly, preprocessing techniques like standardization and normalization were applied to standardize data across features, preparing it for subsequent analytical and modeling tasks. These comprehensive data processing steps underscore our commitment to ensuring the dataset's readiness for insightful exploration and meaningful interpretation of Boston's weather patterns.
 
 ## Exploratory Data Analysis
